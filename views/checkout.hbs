@@ -1,0 +1,23 @@
+<main>
+  <h1>Checkout</h1>
+
+  <form id="checkout-form">
+    <p><label>Name <input type="text" name="name" required></label></p>
+    <p><label>Email <input type="email" name="email" required></label></p>
+    <p><label>Phone number <input type="tel" name="phone" autocomplete="tel" required></label></p>
+    <p><label>Address <input type="text" name="address" required></label></p>
+    <button type="submit">Place order</button>
+  </form>
+
+  <p id="thanks" hidden>Thank you for your order!</p>
+</main>
+
+<script>
+  // no server needed: just show a thank-you message and empty the cart
+  document.getElementById('checkout-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    clearCart(); // from cart.js
+    this.hidden = true;
+    document.getElementById('thanks').hidden = false;
+  });
+</script>

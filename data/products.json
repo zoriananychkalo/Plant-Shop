@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "name": "Monstera",
+    "category": "Plants",
+    "description": "Large glossy leaves, easy to care for. 30cm pot.",
+    "price": 24.0,
+    "image": "/images/products/product-1.svg",
+    "alt": "Monstera product photo"
+  },
+  {
+    "id": "2",
+    "name": "Snake Plant",
+    "category": "Plants",
+    "description": "Hardy and nearly impossible to kill. 20cm pot.",
+    "price": 15.5,
+    "image": "/images/products/product-2.svg",
+    "alt": "Snake Plant product photo"
+  },
+  {
+    "id": "3",
+    "name": "Peace Lily",
+    "category": "Plants",
+    "description": "White flowers and great for shade. 20cm pot.",
+    "price": 18.95,
+    "image": "/images/products/product-3.svg",
+    "alt": "Peace Lily product photo"
+  },
+  {
+    "id": "5",
+    "name": "Ceramic Pot",
+    "category": "Pots",
+    "description": "White glazed pot with drainage hole. 15cm.",
+    "price": 9.5,
+    "image": "/images/products/product-5.svg",
+    "alt": "Photo of a terracotta ceramic pot"
+  },
+  {
+    "id": "6",
+    "name": "Hanging Planter",
+    "category": "Pots",
+    "description": "Macramé hanger with a terracotta pot.",
+    "price": 14.0,
+    "image": "/images/products/product-6.svg",
+    "alt": "Photo of a hanging basket planter"
+  },
+  {
+    "id": "7",
+    "name": "Large Floor Pot",
+    "category": "Pots",
+    "description": "Tall pot for big plants. 35cm.",
+    "price": 29.99,
+    "image": "/images/products/product-7.svg",
+    "alt": "Photo of a large beige floor pot"
+  },
+  {
+    "id": "8",
+    "name": "Watering Can",
+    "category": "Accessories",
+    "description": "1.5 litre metal watering can with a long spout.",
+    "price": 12.5,
+    "image": "/images/products/product-8.svg",
+    "alt": "Photo of a green watering can"
+  },
+  {
+    "id": "9",
+    "name": "Plant Food",
+    "category": "Accessories",
+    "description": "Liquid feed for houseplants. 500ml.",
+    "price": 6.95,
+    "image": "/images/products/product-9.svg",
+    "alt": "Photo of a bag of organic plant food"
+  },
+  {
+    "id": "10",
+    "name": "Mist Sprayer",
+    "category": "Accessories",
+    "description": "Fine-mist spray bottle for humidity-loving plants.",
+    "price": 5.99,
+    "image": "/images/products/product-10.svg",
+    "alt": "Photo of a plant mist sprayer"
+  }
+]

@@ -1,0 +1,11 @@
+
+<nav>
+     <ul>
+          <li ><a  class='{{#if state.home}}active{{/if}}' href='/'>Home</a></li>     
+          <li><a class='{{#if state.shop}}active{{/if}}' href='/shop'>Shop</a></li>
+          <li><a class='{{#if state.contact}}active{{/if}}' href='/contact'>Contact</a></li>
+          {{!-- cart.js puts the number of items into data-cart-count --}}
+          <li class="cart-nav-item"><a class='{{#if state.cart}}active{{/if}}' href='/cart'>Cart (<span data-cart-count>0</span>)</a></li>
+
+     </ul>
+</nav>

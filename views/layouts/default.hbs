@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {{> _head}}
+    </head>
+    <body>
+        {{> _nav}}
+        {{{body}}}
+        {{> _footer}}
+        {{!-- loaded on every page so the cart count in the nav is always up to date --}}
+        <script src="/js/cart.js"></script>
+    </body>
+</html>
