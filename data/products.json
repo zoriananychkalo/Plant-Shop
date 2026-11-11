@@ -27,6 +27,15 @@
     "alt": "Peace Lily product photo"
   },
   {
+    "id": "4",
+    "name": "Bird of Paradise",
+    "category": "Plants",
+    "description": "Tall tropical plant with large paddle-shaped leaves. 40cm pot.",
+    "price": 34.0,
+    "image": "/images/products/product-4.svg",
+    "alt": "Bird of Paradise plant in a terracotta pot"
+  },
+  {
     "id": "5",
     "name": "Ceramic Pot",
     "category": "Pots",
