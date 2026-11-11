@@ -5,3 +5,6 @@
 4. /shop groups products by category in app.js; shop.hbs writes <h2>{{name}}</h2> per category (product names became <h3>).
 5. Add 3 items, DevTools > Application > Local Storage > localhost:3000, key "cart", e.g. [{"id":"1","qty":2}]. Changing a quantity on /cart changes "qty".
 6. With css/styles.css (no /), /shop still works (resolves to /css/styles.css) but /product/1 looks for /product/css/styles.css, which doesn't exist, so the page is unstyled. The leading / means "from the site root".
+7. Each product is a card (class "product-card"). The grid uses repeat(auto-fill, minmax(220px, 1fr)), so the number of columns changes with the screen width.
+8. Placeholder images are in public/images/products/.
+9. views/partials/_productCard.hbs holds the code for one product; shop.hbs calls it with {{> _productCard}} inside the loop.
