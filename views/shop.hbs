@@ -1,4 +1,3 @@
-
 <main>
   <h1>Shop</h1>
 
@@ -7,15 +6,7 @@
     <h2>{{name}}</h2>
     <div class="product-grid">
     {{#each products}}
-      <article>
-        <img src="{{image}}" alt="{{alt}}" width="300">
-        <h3>{{name}}</h3>
-        <p>Product ID: {{id}}</p>
-        <p>Category: {{category}}</p>
-{{!-- note euro is a helper function that formats the price as a euro currency string --}}
-        <p>Price: {{euro price}}</p>
-        <button type="button" data-add-to-cart="{{id}}">Add to cart</button>
-      </article>
+      {{> _productCard}}
     {{/each}}
     </div>
   </section>
