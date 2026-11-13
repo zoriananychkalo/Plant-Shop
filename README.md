@@ -1,3 +1,5 @@
+Web Development and Design Project Zoriana Nychkalo - S00289335
+
 - install libraries required
 npm install
 - run the server
